@@ -1,6 +1,12 @@
-# Template Python Project
+# Standup Generator
 
-This template project provides a simple structure to quickly set up a Python project with dependency management, Python version management, Git setup, and global command registration.
+This generator will help you create a standup report for your team based on your commit history.
+
+## Usage
+
+Set up `OPENAI_API_KEY` environment variable with your OpenAI API key and then run this script in the directory you want to prepare standup update for.
+
+- `-d` or `--days` - number of days to look back for commits. If this option is not specified, than the last workday will be looked up, with special handling for weekends.
 
 ## Project Structure
 
